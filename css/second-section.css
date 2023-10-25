@@ -1,4 +1,35 @@
-.second-section{}
-.second-section > .help{}
-.second-section .buttom-app{}
-.second-section .buttom-supervisor{}
+
+.second-section{
+    background-color: lightgray;
+    height: 300px;
+}
+.second-section > .help{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+    padding-top: 60px;
+
+}
+.second-section .form{
+    display: inline-block;
+}
+.second-section .buttoms{
+    margin-left: 200px;
+}
+.second-section .buttom-vendor{
+    padding: 5px 50px;
+    background-color: purple;
+}
+.second-section .buttom-supervisor{
+    padding: 5px 50px;
+}
+
+.second-section .text{
+    width: 300px;
+}
+.second-section .text-paragraph{
+    margin-bottom: 25px;
+}
+.second-section .phone{
+    float: right;
+}
