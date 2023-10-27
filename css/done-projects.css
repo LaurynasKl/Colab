@@ -1,0 +1,19 @@
+.done-projects{
+    background-color: gray;
+}
+.done-projects .done{
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    padding: 50px;
+}
+.done-projects .all{
+    display: inline-block;
+    margin-left: 110px;
+}
+.done-projects .ft{
+    width: 250px;
+}
+.done-projects .num{
+
+}
