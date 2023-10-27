@@ -96,51 +96,75 @@ body {
     margin-left: calc(50% - 80px);
     padding: 13px 0;
     border-radius: 10px;
+    border: 2px solid purple;
 }
 .request:hover{
-    color: black;
+    color: purple;
+    background-color: white;
 }
-.explore-text{
+.first-section > .explore-text{
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 600px);
 }
 
-.first-section .bc{
-    /* background */
+.first-section .bg-one{
+    background-color: rgb(252, 247, 253);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: calc(50% - 250px);
+    position: relative;
 }
-
+.first-section .bg-two{
+    background-color: rgb(248, 228, 255);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: calc(50% - 150px);
+    position: relative;
+    bottom: 470px;
+}
+.both{
+    position: relative;
+    top: 40px;
+}
 .first-section .phone-text{
-    width: 180px;
-    margin-left: calc(50% - 90px);
+    width: 170px;
+    margin-left: calc(50% - 85px);
     font-size: 50px;
     text-align: center;
     padding: 120px 0;
     border-radius: 15px;
     color: purple;
     border: 2px solid purple;
+    background-color: white;
     margin-bottom: 50px;
+
 }
 .phone-text:hover{
-    background-color: lightpink;
+    background-color: lightpink; 
+
 }
 .first-section .explore{
-    display: inline-block;
     text-decoration: none; 
     font-size: 20px;
-    width: 160px;
+    /* width: 160px; */
     text-align: center;
-    margin-left: calc(50% - 80px);
+    margin-left: calc(50% - 70px);
     padding: 5px 0;
     border: 2px solid purple;
     border-radius: 10px;
+    color: purple;
 }
 .explore:hover{
     background-color: purple;
-    color: black;
+    color: white;
 }
 
 .first-section .brands{
-    margin-top: 150px;
+    margin-top: 220px;
 }
-
 .first-section .brands-list{
     font-size: 25px;
     width: 270px;
