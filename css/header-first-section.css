@@ -95,14 +95,14 @@ body {
     text-align: center;
     margin-left: calc(50% - 80px);
     padding: 13px 0;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid purple;
 }
 .request:hover{
     color: purple;
     background-color: white;
 }
-.first-section > .explore-text{
+.first-section .explore-text{
     position: absolute;
     width: 1200px;
     left: calc(50% - 600px);
@@ -135,7 +135,7 @@ body {
     font-size: 50px;
     text-align: center;
     padding: 120px 0;
-    border-radius: 15px;
+    border-radius: 7px;
     color: purple;
     border: 2px solid purple;
     background-color: white;
@@ -149,12 +149,11 @@ body {
 .first-section .explore{
     text-decoration: none; 
     font-size: 20px;
-    /* width: 160px; */
     text-align: center;
-    margin-left: calc(50% - 70px);
-    padding: 5px 0;
+    margin-left: calc(50% - 80px);
+    padding: 5px 15px;
     border: 2px solid purple;
-    border-radius: 10px;
+    border-radius: 5px;
     color: purple;
 }
 .explore:hover{
