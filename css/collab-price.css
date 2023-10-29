@@ -1,0 +1,83 @@
+.collab-price{
+    width: 100%;
+    margin-top: 100px;
+}
+.collab-price .intro-app{
+    text-align: center;
+}
+.collab-price .start{
+    font-size: 30px;
+    padding: 5px;
+}
+.collab-price .package{
+    color: #B2AEAF;
+}
+.collab-price .choose{
+    margin-top: 25px;
+}
+.monthly{
+    color: #B2AEAF;
+}
+.yearly{
+    color: black;
+    font-weight: bold;
+}
+.discount{
+    background-color: #FEE684;
+    padding: 0 5px;
+}
+.collab-price .choose-plan{
+    display: flex;
+}
+.collab-price .plan{
+    border: 1px solid #B2AEAF;  
+    width: 220px;
+    margin-left: 45px;
+    height: 380px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.collab-price .plan:nth-child(1){
+    margin-left: 210px;
+}
+.collab-price .plan:nth-child(3){
+    background-color: rgb(85, 229, 167);
+}
+.collab-price .plan:nth-child(3) .price{
+    margin-bottom: 50px;
+}
+.collab-price .intro{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.collab-price .price{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.collab-price .demo{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.collab-price .demo:hover{
+    background-color: rgb(85, 229, 167);
+}
+
+.collab-price .about-package{
+    margin-top: 30px;
+}
+.collab-price .text{
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.collab-price .fa{
+    padding: 2px 10px;
+}
