@@ -1,0 +1,27 @@
+.map-contacts{
+    display: inline-block;
+    background-color: #FCF9FF;
+    height: 350px;
+    width: 100%;
+
+}
+.map-contacts .contacts{
+    float: left;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.map-contacts .question{
+    padding: 40px;
+    font-size: 35px;
+}
+.map-contacts .info{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.map-contacts .map{
+    float: right;
+    font-size: 200px;
+}

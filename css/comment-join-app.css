@@ -1,0 +1,123 @@
+.comments{
+    width: 100%;
+    height: 450px;
+    background-color: #FBF8FF;
+    margin-top: 40px;
+    border: 1px solid #FBF8FF;
+}
+.comments .ratings{
+    display: flex;
+    gap: 10px;
+    margin: 70px 515px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #E13C5A;
+}
+.comments .comment{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    width: 1200px;
+}
+.comments .left{
+    float: left;
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.comments .lorem{
+    width: 600px;
+}
+.comments .right{
+    float: right;
+    margin-right: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.comments .avatar-and-text{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.comments .avatar{
+    margin-bottom: 5px;
+    width: 60px;
+}
+.comments .designation{
+}
+
+
+.join{
+    width: 100%;
+    height: 480px;
+    text-align: center;
+    margin-top: 120px;
+    background-image: url(../images/bc.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+}
+.join .join-us{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.join .text{
+    margin-bottom: 40px;
+}
+.join .explore{
+    padding: 12px;
+    background-color: purple;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.download{
+    background-color: purple;
+    width: 100%;
+    height: 350px;
+
+}
+.download .mobile-app{
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: #FBFBFD;
+}
+.download .links{
+    width: 100%;
+    text-align: center;
+}
+.download .apps{
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 40px 10px;
+    background-color: purple;
+    color: #FBFBFD;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #FBFBFD;
+    font-weight: bold;
+}
+.download .apps.active{
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 40px 10px;
+    background-color: #FBFBFD;
+    color: purple;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #FBFBFD;
+}
+.download .apps:hover{
+    background-color: #FBFBFD;
+    color: purple;
+}
+.download .apps.active:hover{
+    background-color: purple;
+    color: #FBFBFD;
+}
