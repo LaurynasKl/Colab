@@ -1,19 +1,35 @@
 .done-projects{
-    background-color: gray;
+    background-color: rgb(252, 249, 255);
+    height: 500px;
 }
 .done-projects .done{
     width: 100%;
     text-align: center;
-    background-color: orange;
     padding: 50px;
+    font-size: 30px;
 }
 .done-projects .all{
-    display: inline-block;
-    margin-left: 110px;
+    display: flex;
+}
+.done-projects .ft-text{
+    background-color: white;
+    margin-left: 30px;
+    height: 240px;
+}
+.done-projects .ft-text:nth-child(1){
+    margin-left: 200px;
 }
 .done-projects .ft{
     width: 250px;
 }
-.done-projects .num{
+.done-projects .text-about-img{
+    margin-top: 10px;
+    padding: 2px 15px;
+}
+.done-projects .text-about{
+    padding: 2px;
+}
 
+.done-projects .text-about.color{
+    color: purple;
 }
