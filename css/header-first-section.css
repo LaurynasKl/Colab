@@ -11,8 +11,7 @@ body {
 }
 
 .short-intro{
-    width: 1200px;
-    margin: 0 calc(50% - 600px);
+    width: 100%;
     display: inline-block;
     background-color: purple;
     color: white;
@@ -29,20 +28,21 @@ body {
     color: black;
 }
 .main-header{
-    width: 1200px;
-    margin: 0 calc(50% - 600px);
+    width: 100%;
     display: inline-block;
     padding-bottom: 8px;
     border-bottom: 3px rgba(128, 0, 128, 0.1) solid;
     backdrop-filter: blur(1px);
 }
 .collab{
+    margin-left: calc(50% - 630px);
     color: purple;
     font-size: 50px;
-    margin-left: 5%;
     display: inline-block;
+    
 }
 .main-menu{
+    margin-right: calc(50% - 650px);
     float: right;
     margin-top: 20px;
 }
@@ -68,12 +68,11 @@ body {
 }
 
 .main{
-    width: 1200px;
-    margin: 0 calc(50% - 600px);
+    width: 100%;
 }
 .main > .first-section{
-    width: 1200px;
-    margin: 0 calc(50% - 600px);
+    width: 100%;
+    /* margin: 0 calc(50% - 600px); */
     margin-bottom: 100px;
 }
 .first-section .request-text{
@@ -93,10 +92,11 @@ body {
     font-size: 20px;
     width: 160px;
     text-align: center;
-    margin-left: calc(50% - 80px);
     padding: 13px 0;
     border-radius: 5px;
     border: 2px solid purple;
+    margin-left: calc(50% - 80px);
+
 }
 .request:hover{
     color: purple;
@@ -104,8 +104,7 @@ body {
 }
 .first-section .explore-text{
     position: absolute;
-    width: 1200px;
-    left: calc(50% - 600px);
+    width: 100%;
 }
 
 .first-section .bg-one{
@@ -130,8 +129,8 @@ body {
     top: 40px;
 }
 .first-section .phone-text{
-    width: 170px;
     margin-left: calc(50% - 85px);
+    width: 170px;
     font-size: 50px;
     text-align: center;
     padding: 120px 0;
@@ -144,39 +143,44 @@ body {
 }
 .phone-text:hover{
     background-color: lightpink; 
-
 }
 .first-section .explore{
+    display: inline-block;
     text-decoration: none; 
     font-size: 20px;
     text-align: center;
-    margin-left: calc(50% - 80px);
+    margin-left: calc(50% - 85px);
     padding: 5px 15px;
     border: 2px solid purple;
     border-radius: 5px;
     color: purple;
+    width: 170px;
 }
 .explore:hover{
     background-color: purple;
     color: white;
 }
 
+.brands .logo{
+    width: 910px;
+    margin-left: calc(50% - 455px);
+}
 .first-section .brands{
     margin-top: 220px;
 }
 .first-section .brands-list{
+    width: 100%;
+    text-align: center;
     font-size: 25px;
-    width: 270px;
     padding: 0 20px;
-    margin-left: calc(50% - 135px);
     margin-bottom: 40px;
 }
 .first-section .brands-logo{
     width: 130px;
     height: 110px;
-    margin-left: 40px;
+    margin-left: 60px;
     object-fit: cover;
 }
-.first-section .brands-logo:nth-child(2){
-    margin-left: 180px;
+.first-section .brands-logo:nth-child(1){
+    margin-left: 0;
 }
