@@ -1,6 +1,6 @@
 
 .second-section{
-    width: 1200px;
+    width: 100%;
     height: 381px;
     background-color: rgb(251, 248, 255);
     margin-bottom: 300px;
@@ -12,37 +12,43 @@
     padding-top: 60px;
 }
 
+
+.second-section .collab-app-help{
+    display:flex;
+    gap: 170px;
+    width: 900px;
+    margin-left: calc(50% - 500px);
+}
 .second-section .text{
     float: left;
     height: 200px;
-    margin-left: 100px;
     margin-top: 20px;
     position: relative;
 }
-.second-section .text .buttons{
+.second-section .buttons{
     display: flex;
     gap: 2px;
     padding: 4px;
     background-color: white;
     margin-bottom: 20px;
-    margin-left: 60px;
     border-radius: 5px;
+    margin-left: 60px;
 }
 .second-section .button.active{
     background-color: purple;
     color: white;
+    width: 220px;
 }
 .second-section .button{
     background-color: white;
     color: black;
-    padding: 8px 50px;
+    padding: 10px 40px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    width: 220px;
 }
-.second-section .button:nth-child(1){
-    padding: 8px 80px;
-}
+
 .second-section .button.active:hover{
     background-color: white;
     color: black;
@@ -53,6 +59,7 @@
     color: white;
     box-shadow: 0 0 5px purple;
 }
+
 
 .second-section .paragraph{
     display: flex;
@@ -87,7 +94,7 @@
 .second-section .phone{
     float: right;
     width: 220px;
-    margin-right: 220px;
+    margin-right: 260px;
     margin-top: 20px;
 }
 
@@ -119,21 +126,23 @@
     width: 100%;
     text-align: center;
     padding: 50px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .done-projects .all{
     display: flex;
+    width: 960px;
+    margin-left: calc(50% - 480px);
 }
 .done-projects .ft-text{
     background-color: white;
     margin-left: 30px;
-    height: 240px;
+    height: 270px;
 }
 .done-projects .ft-text:nth-child(1){
-    margin-left: 200px;
+    margin-left: 0;
 }
 .done-projects .ft{
-    width: 250px;
+    width: 300px;
 }
 .done-projects .text-about-img{
     margin-top: 10px;

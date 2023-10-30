@@ -26,8 +26,13 @@
     background-color: #FEE684;
     padding: 0 5px;
 }
+
+
 .collab-price .choose-plan{
     display: flex;
+    width: 750px;
+    margin-left: calc(50% - 375px);
+
 }
 .collab-price .plan{
     border: 1px solid #B2AEAF;  
@@ -38,7 +43,7 @@
     margin-top: 60px;
 }
 .collab-price .plan:nth-child(1){
-    margin-left: 210px;
+    margin-left: 0;
 }
 .collab-price .plan:nth-child(3){
     background-color: rgb(85, 229, 167);
