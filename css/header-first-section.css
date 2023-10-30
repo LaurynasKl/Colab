@@ -59,23 +59,17 @@ body {
     color: purple;
     padding: 4px;
     border: 1px solid purple ;
+    border-radius: 3px;
 }
 .main-link.last-link:hover{
     border: 1px solid purple;
     background-color: purple;
-    color: black;
+    color: white;
 }
 
 .main{
     width: 1200px;
     margin: 0 calc(50% - 600px);
-
-
-
-    margin-bottom: 200px;
-
-
-
 }
 .main > .first-section{
     width: 1200px;
