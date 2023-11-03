@@ -18,6 +18,33 @@
 .monthly{
     color: #B2AEAF;
 }
+
+.switch{
+    display: inline-block;
+    background-color: #55e5a7;
+    width: 50px;
+    height: 25px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.switch .btn{
+    cursor: pointer;
+    float: left;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    margin: 1px 5px;
+}
+
+.switch:hover{
+    background-color: white;
+}
+.btn:hover{
+    background-color: #55e5a7;
+    float: right;
+}
+
+
 .yearly{
     color: black;
     font-weight: bold;
